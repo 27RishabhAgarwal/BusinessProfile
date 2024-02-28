@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BusinessProfile/static/css/main.15e89c56.css",
+    "main.js": "/BusinessProfile/static/js/main.3a8e78a1.js",
+    "index.html": "/BusinessProfile/index.html",
+    "main.15e89c56.css.map": "/BusinessProfile/static/css/main.15e89c56.css.map",
+    "main.3a8e78a1.js.map": "/BusinessProfile/static/js/main.3a8e78a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15e89c56.css",
+    "static/js/main.3a8e78a1.js"
+  ]
+}
