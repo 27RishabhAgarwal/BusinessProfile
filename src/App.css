@@ -35,7 +35,7 @@ h3{
 
 p{
     font-size: 16px;
-    color: #ffffff;
+    color: #1b1a1a;
 }
 
 .contact-card{
@@ -53,7 +53,8 @@ p{
 
 @media screen and (max-width: 768px){
     :root{
-        --backdrop-color: #ffffff25;
+        --backdrop-color: #83818182;
+        
     }
     #root{
         width: 100vw;
