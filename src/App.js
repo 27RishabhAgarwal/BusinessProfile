@@ -21,8 +21,8 @@ function App() {
         <CardHeader />
         <CardContact />
         <CardAboutMe />
-        <CardPay />
         <CardProducts />
+        <CardPay />
         <CardButtons />
       </ContactCard>
       <CardFloaters />

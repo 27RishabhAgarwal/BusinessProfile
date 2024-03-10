@@ -120,11 +120,6 @@ const CardPay = () => {
                                     <td>KEDARNATH FILLING STATION</td>
                                 </tr>
                                 <tr>
-                                    <th>Branch</th>
-                                    <td>:</td>
-                                    <td>Balamau</td>
-                                </tr>
-                                <tr>
                                     <th>Account No.</th>
                                     <td>:</td>
                                     <td>10540200007374</td>
@@ -134,6 +129,11 @@ const CardPay = () => {
                                     <td>:</td>
                                     <td>BARB0BALAMA</td>
                                 </tr>
+                                <tr>
+                                    <th>Branch</th>
+                                    <td>:</td>
+                                    <td>Balamau</td>
+                                </tr> 
                                 <tr>
                                     <th>Account Type</th>
                                     <td>:</td>

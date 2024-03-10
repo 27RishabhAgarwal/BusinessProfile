@@ -2,7 +2,7 @@
     /* color scheme */
   --primary-color: #2c1c1c;
   --secondary-color: #1c0101;
-  --backdrop-color: #83818182;
+  --backdrop-color: #b3b1b17d;
 }
 
 #root{
@@ -15,6 +15,7 @@
     padding: 20px 0 80px;
     background-color: transparent;
     color: #ffffff;
+
 }
 
 h2, h3 {
