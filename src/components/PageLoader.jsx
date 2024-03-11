@@ -7,7 +7,7 @@ const Loader = () => {
     useEffect(() => {
         const loadingTimeout = setTimeout(() => {
             setLoading(false);
-        }, 2000);
+        }, 2500);
 
         return () => clearTimeout(loadingTimeout);
     }, []);
@@ -15,7 +15,7 @@ const Loader = () => {
     if (loading) {
         return ReactDOM.createPortal(
             <div id="loader">
-                <img src='logo.png' alt='hp-logo' />
+                <img src='hpgas_chat_icon.gif' alt='hp-logo' />
             </div>,
             document.body
         );

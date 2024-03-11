@@ -45,9 +45,9 @@ const CardPay = () => {
         a.click();
     }
 
-        const openInNewTab = url => {
-          window.open(url, '_blank', 'noopener,noreferrer');
-        };
+        // const openInNewTab = url => {
+        //   window.open(url, '_blank', 'noopener,noreferrer');
+        // };
 
     return (
         <div className="card-pay">
@@ -71,7 +71,7 @@ const CardPay = () => {
                             <img src="./assets/upi_QR.png" alt="" />
                             <div className="card-utility-button">
                                 <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button><br></br>
-                                <button className="btn btn-primary" onClick={() => openInNewTab('upi://pay?pa=paytmqr18e4crfuyr@paytm&pn=Paytm')}>Pay</button>
+                                {/* <button className="btn btn-primary" onClick={() => openInNewTab('upi://pay?pa=paytmqr18e4crfuyr@paytm&pn=Paytm')}>Pay</button> */}
                             </div>
                         </div>
                     </div>
