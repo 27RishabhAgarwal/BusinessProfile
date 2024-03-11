@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BusinessProfile/static/css/main.839a41d5.css",
-    "main.js": "/BusinessProfile/static/js/main.b6a054b0.js",
+    "main.css": "/BusinessProfile/static/css/main.07f51a81.css",
+    "main.js": "/BusinessProfile/static/js/main.fcead202.js",
     "index.html": "/BusinessProfile/index.html",
-    "main.839a41d5.css.map": "/BusinessProfile/static/css/main.839a41d5.css.map",
-    "main.b6a054b0.js.map": "/BusinessProfile/static/js/main.b6a054b0.js.map"
+    "main.07f51a81.css.map": "/BusinessProfile/static/css/main.07f51a81.css.map",
+    "main.fcead202.js.map": "/BusinessProfile/static/js/main.fcead202.js.map"
   },
   "entrypoints": [
-    "static/css/main.839a41d5.css",
-    "static/js/main.b6a054b0.js"
+    "static/css/main.07f51a81.css",
+    "static/js/main.fcead202.js"
   ]
 }
