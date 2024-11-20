@@ -20,7 +20,7 @@ const CardProducts = () => {
             </div>
             <div className="card-products-box-item">
                 <p>CNG</p>
-                <p>97.70/-</p>
+                <p>99.70/-</p>
             </div>
         </div>
     </div>

@@ -98,7 +98,7 @@ const CardPay = () => {
 
                 <div className="card-pay-item">
                     <div className="card-pay-item-header" onClick={toggleItemBody}>
-                        <img src="./assets/axis_logo.png" alt="" />
+                        <img src="./assets/pnb_logo.jpg" alt="" />
                         <div>
                             <h3>Bank Details</h3>
                             <p>Click to get details</p>
