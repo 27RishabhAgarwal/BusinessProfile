@@ -1,3 +1,8 @@
+import Icon from '@mdi/react';
+import { mdiChevronDown,
+    mdiContentCopy,
+    mdiDownload
+ } from '@mdi/js';
 const CardPay = () => {
 
     const toggleItems = (e) => {
@@ -54,7 +59,7 @@ const CardPay = () => {
             <div className="card-pay-title" onClick={toggleItems}>
                 <h2>Pay Us</h2>
                 <p>Pay us by clicking here</p>
-                <i class="fa-solid fa-chevron-down"></i>
+                <i><Icon path={mdiChevronDown} size={1.2} /></i>
             </div>
             <div className="card-pay-items">
                 <div className="card-pay-item">
@@ -64,13 +69,13 @@ const CardPay = () => {
                             <h3>UPI Pay</h3>
                             <p>Click to get QR</p>
                         </div>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i><Icon path={mdiChevronDown} size={1.2} /></i>
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
                             <img src="./assets/upi_QR.png" alt="" />
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button><br></br>
+                                <button className="btn btn-primary" onClick={downloadQR}><i><Icon path={mdiDownload} size={1} /></i>Download</button><br></br>
                                 {/* <button className="btn btn-primary" onClick={() => openInNewTab('upi://pay?pa=paytmqr18e4crfuyr@paytm&pn=Paytm')}>Pay</button> */}
                             </div>
                         </div>
@@ -84,13 +89,13 @@ const CardPay = () => {
                             <h3>HP Pay</h3>
                             <p>Click to get QR</p>
                         </div>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i><Icon path={mdiChevronDown} size={1.2} /></i>
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
                             <img src="./assets/qrcode.png" alt="" />
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button>
+                                <button className="btn btn-primary" onClick={downloadQR}><i><Icon path={mdiDownload} size={1} /></i>Download</button>
                             </div>
                         </div>
                     </div>
@@ -103,7 +108,7 @@ const CardPay = () => {
                             <h3>Bank Details</h3>
                             <p>Click to get details</p>
                         </div>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i><Icon path={mdiChevronDown} size={1} /></i>
                     </div>
                     <div className="card-pay-item-body">
                         <div className="bank-details">
@@ -143,7 +148,7 @@ const CardPay = () => {
                             </tbody>
                             </table>
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={copyToClipBoard}><i class="fa-solid fa-copy"></i>Copy</button>
+                                <button className="btn btn-primary" onClick={copyToClipBoard}><i><Icon path={mdiContentCopy} size={1} /></i>Copy</button>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,7 @@
-
+import Icon from '@mdi/react';
+import { mdiShare,
+    mdiPlus
+ } from '@mdi/js';
 // function copyToClipBoard(){
 //     navigator.clipboard.writeText("https://27rishabhagarwal.github.io/BusinessCard/")
 //     alert("Copied to clipboard!")
@@ -14,10 +17,12 @@ const CardFloaters = () => {
      <>
      <a href="./assets/RishabhAgarwal.vcf" download="RishabhAgarwal" className="card-floaters floater-right-btn">
          <p>Add to Contact</p>
-         <i class="fa-solid fa-plus"></i>
+         <i><Icon path={mdiPlus} size={1.25} /></i>
      </a>
      <button id=".share-button" className="card-floaters floater-left-btn" onClick={copyToClipBoard}>
-         <i class="fa-solid fa-share"></i>
+     <i>
+         <Icon path={mdiShare} size={1.25} />
+         </i>
      </button>
         
      </>

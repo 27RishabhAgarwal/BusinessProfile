@@ -1,3 +1,6 @@
+import Icon from '@mdi/react';
+import { mdiChevronRight } from '@mdi/js';
+
 const CardSocials = () => {
     return (
         <div className="card-socials">
@@ -9,12 +12,12 @@ const CardSocials = () => {
                 <a href="https://m.facebook.com/profile.php/?id=100021529052398" target="_blank" rel="noreferrer">
                     <img src="./assets/icons/fb_icon@72x.png" alt="instagram logo" />
                     <span>Facebook</span>
-                    <i class="fa-solid fa-chevron-right"></i>
+                    <i><Icon path={mdiChevronRight} size={1} /></i>
                 </a>
                 <a href="http://www.instagram.com/rishabh275_" target="_blank" rel="noreferrer">
                     <img src="./assets/icons/insta_icon@72x.png" alt="instagram logo" />
                     <span>Instagram</span>
-                    <i class="fa-solid fa-chevron-right"></i>
+                    <i><Icon path={mdiChevronRight} size={1} /></i>
                 </a>
             </div>
         </div>

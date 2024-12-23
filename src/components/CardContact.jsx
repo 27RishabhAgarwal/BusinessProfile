@@ -1,8 +1,10 @@
+import Icon from '@mdi/react';
+import { mdiCellphone } from '@mdi/js';
 const CardContact = () => {
     return (
       <div className="card-contact-us">
         <div className="card-contact-title">
-            <i class="fa-solid fa-mobile-screen"></i>
+        <i> <Icon path={mdiCellphone} size={1.2} /></i>
             <h2>Contact Details</h2>
         </div>
         <div className="contact-details-item">
