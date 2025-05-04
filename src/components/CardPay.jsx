@@ -122,7 +122,7 @@ const CardPay = () => {
               <table>
                 <thead>
                   <tr>
-                    <th colSpan="3">Bank of Baroda</th>
+                    <th colSpan="3">Punjab National Bank</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -134,17 +134,17 @@ const CardPay = () => {
                   <tr>
                     <th>Account No.</th>
                     <td>:</td>
-                    <td>10540200007374</td>
+                    <td>7531009300000110</td>
                   </tr>
                   <tr>
                     <th>IFSC Code</th>
                     <td>:</td>
-                    <td>BARB0BALAMA</td>
+                    <td>PUNB0753100</td>
                   </tr>
                   <tr>
                     <th>Branch</th>
                     <td>:</td>
-                    <td>Balamau</td>
+                    <td>Kachhauna Patseni</td>
                   </tr>
                   <tr>
                     <th>Account Type</th>
