@@ -129,7 +129,7 @@ const CardPay = () => {
                   <tr>
                     <th>Account Holder</th>
                     <td>:</td>
-                    <td>KEDARNATH FILLING STATION</td>
+                    <td>KEDAR NATH FILLING STATION</td>
                   </tr>
                   <tr>
                     <th>Account No.</th>
