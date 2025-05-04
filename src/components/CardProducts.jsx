@@ -11,8 +11,8 @@ const CardProducts = () => {
                 <p>95.24/-</p>
             </div>
             <div className="card-products-box-item">
-                <p>E20</p>
-                <p>95.24/-</p>
+                <p>poWer</p>
+                <p>102.54/-</p>
             </div>
             <div className="card-products-box-item">
                 <p>Diesel</p>
@@ -20,7 +20,7 @@ const CardProducts = () => {
             </div>
             <div className="card-products-box-item">
                 <p>CNG</p>
-                <p>99.70/-</p>
+                <p>101.90/-</p>
             </div>
         </div>
     </div>

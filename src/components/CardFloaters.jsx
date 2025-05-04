@@ -21,7 +21,7 @@ const CardFloaters = () => {
      </a>
      <button id=".share-button" className="card-floaters floater-left-btn" onClick={copyToClipBoard}>
      <i>
-         <Icon path={mdiShare} size={1.25} />
+         <Icon path={mdiShare} size={1.25} style={{ marginBottom: '4px' }} />
          </i>
      </button>
         
